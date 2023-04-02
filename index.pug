@@ -62,11 +62,11 @@ html(lang="zh-TW")
       
       section.form.w-640
         .text-center
-          h1 Google表單，輸入ID後自動帶入其它欄位資料
-          p 筆記文：
+          h1 輸入ID後自動帶入其它欄位資料
+          
             
         .form-group
-          label(for="main_id") 請輸入 ID（0101 - 0112）
+          label(for="main_id") 請輸入 ID（0000）
           input#main_id.form-control(type="number", v-model="id", @input="limitIdLen(id)")
         .two-col
           .col
